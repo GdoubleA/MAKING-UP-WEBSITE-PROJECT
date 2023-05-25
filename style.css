@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    max-width: 1438px;
+    margin: 0 auto;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+}
+
+.logo {
+    color: #E3B873;
+    text-transform: uppercase;
+
+}
+
+.header {
+    background-color: #131313;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation__item {
+    margin-left: 47px;
+}
+
+.tel {
+    margin-right: -100px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #E3B873;
+}
+
+.header-navigation__item a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+}
+.header-navigation__item a:hover {
+    color: #E3B873;
+}
+/*                      HERO                           */
+.hero {
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+.hero-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 550px;
+}
+
+.Rostov {
+    color: #E3B873;
+}
+
+.hero-text {
+    margin-top: 19px;
+    font-family: 'Nunito Sans';
+    font-size: 22px;
+    line-height: 36px;
+    width: 507px;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    margin-top: 41px;
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 20px 23px;
+    background: none;
+    color: #FFFFFF;
+}
+.right-hero-button {
+    margin-left: 20px;
+}
+.hero-button:hover {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+}
