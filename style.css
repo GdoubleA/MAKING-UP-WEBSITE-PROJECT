@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    max-width: 1438px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -71,7 +71,9 @@ body {
 .header-navigation__item a:hover {
     color: #E3B873;
 }
-/*                      HERO                           */
+
+/*====================HERO====================*/
+
 .hero {
     background-image: url(images/hero.jpg);
     background-size: cover;
@@ -136,3 +138,272 @@ body {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
 }
+
+/*====================COMPLETED PROJECTS====================*/
+
+.projects {
+    padding-top: 107px;
+    height: 1074px;
+    background-color: #131313;
+    position: relative;
+}
+
+.admiral {
+    display: flex;
+}
+.admiral-image {
+    margin-left: 50px;
+    margin-top: 53px;
+    filter: drop-shadow(0px 50px 30px rgba(0, 0, 0, 0.15));
+}
+
+.admiral-ul {
+    list-style: none;
+    display: flex;
+    margin-left: 440px;
+}
+
+.admiral-ul__item {
+    margin-left: 60px;
+}
+.admiral-ul__item a {
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+.admiral-ul__item a:hover {
+    color: #E3B873;
+    text-underline-offset: 6.6px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+
+}
+
+.h2-project {
+    margin-top: 57px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    width: min-content;
+}
+
+.project-text {
+    margin-top: 34px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.admiral-info {
+    position: relative;
+    width: 442px;
+    height: 390px;
+}
+
+.admiral-location {
+    display: flex;
+    width: max-content;
+    margin-top: 42px; 
+    gap: 90px;
+
+}
+.admiral-location2 {
+    display: flex;
+    width: max-content;
+    margin-top: 42px; 
+    gap: 56px;
+}
+
+.admiral-text {
+    margin-top: 9px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.arrow {
+    display: flex;
+    gap: 17px;
+    margin-top: 81px;
+    align-items: center;
+}
+
+.circles {
+    width: 9.57px;
+    height: 9.57px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+.circles-white {
+    width: 9.57px;
+    height: 9.57px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+
+/*====================ONLINE CONTROL====================*/
+
+.control {
+    display: flex;
+    height: 1074px;
+    background-color:#FFFFFF;
+    position: relative;
+}
+
+.online-control {
+    margin-top: -300px;
+    text-align: center;
+}
+
+.image-control {
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.online-header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.online-container {
+    position: relative;
+    margin-top: 21px;
+    width: 817px;
+    height: 434px;
+    background: rgba(0, 0, 0, 1);
+    filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.15));
+}
+
+.play {
+    position: absolute;
+    top: 150px;
+    right: 340px;
+    z-index: 1;
+}
+
+.image-online {
+    opacity: 0.2;
+}
+
+.stick {
+    margin-top: 63px;
+}
+
+.container-text {
+    display: flex;
+    justify-content: center;
+}
+.online-text {
+    margin-top: 34px;
+    width: 681px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    justify-content: center;
+    color: #363636;
+    text-align: center;
+}
+
+.container-form {
+    text-align: left;
+    gap: 55px;
+    justify-content: center;
+    display: flex;
+    margin-top: 91px;
+}
+
+.label-online {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+.input-online-form {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    width: 231px;
+}
+
+.input-online {
+    cursor: pointer;
+    width: 200px;
+    height: 51px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    color: white;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.online-checkbox {
+    margin-top: 37px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #181818;
+    
+}
+
+#vehicle1 {
+    accent-color: #E3B873;
+    height: 18px;
+    width: 18px;
+    
+}
+
+
+
+
+
