@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap"
         rel="stylesheet" />
 
-    <title>Document</title>
+    <title>IC "REPAIR DESIGN PROJECT"</title>
 </head>
 
 <body>
@@ -144,11 +144,13 @@
                 <div class="container-form">
                     <form class="online-form" action="#">
                         <label class="label-online" for="fname">Name</label><br />
-                        <input class="input-online-form" type="text" id="fname" name="fname" placeholder="What is your name:" />
+                        <input class="input-online-form" type="text" id="fname" name="fname"
+                            placeholder="What is your name:" />
                     </form>
                     <form action="#">
                         <label class="label-online">Phone</label><br />
-                        <input class="input-online-form" type="tel" id="phone" name="phone" placeholder="Your phone number:" />
+                        <input class="input-online-form" type="tel" id="phone" name="phone"
+                            placeholder="Your phone number:" />
                     </form>
                     <form>
                         <input class="input-online" type="submit" value="Submit" />
@@ -158,11 +160,132 @@
 
                 <div class="online-checkbox">
                     <form action="#">
-                        <input class="checkbox" type="checkbox" id="vehicle1" name="online" value="online" />
+                        <input class="checkbox-first" type="checkbox" id="vehicle1" name="online" value="online" />
                         <label for="online">I agree to the processing of personal data</label><br />
                     </form>
                 </div>
 
+            </div>
+        </section>
+
+        <section class="repair">
+
+            <div class="container types-of-repair">
+                <h3 class="repair-header">TYPES OF REPAIR</h3>
+                <div class="tools">
+                    <img src="svg/tools.svg" alt="tools">
+                </div>
+                <div class="cards">
+
+                    <div class="repair-cards redecorating">
+                        <div class="card-info">
+                            <h4 class="info-card-header">Redecorating</h4>
+                            <ul class="repair-navigation">
+                                <li class="repair-navigation__item">Dismantling of old coatings</li>
+                                <li class="repair-navigation__item">Wallpapering</li>
+                                <li class="repair-navigation__item">Painting walls and ceilings</li>
+                                <li class="repair-navigation__item">Laying flooring</li>
+                                <li class="repair-navigation__item">Replacing plumbing</li>
+                                <li class="repair-navigation__item">Replacing sockets and switches</li>
+                                <li class="repair-navigation__item">Replacing doors</li>
+                            </ul>
+                            <button class="repair-button">from 900 rub / m2</button>
+                        </div>
+                    </div>
+                    <div class="repair-cards overhaul">
+                        <div class="card-info">
+                            <h4 class="info-card-header">Overhaul</h4>
+                            <ul class="repair-navigation">
+                                <li class="repair-navigation__item">Dismantling of old coatings</li>
+                                <li class="repair-navigation__item">Wallpapering</li>
+                                <li class="repair-navigation__item">Painting walls and ceilings</li>
+                                <li class="repair-navigation__item">Laying flooring</li>
+                                <li class="repair-navigation__item">Replacing plumbing</li>
+                                <li class="repair-navigation__item">Replacing sockets and switches</li>
+                                <li class="repair-navigation__item">Replacing doors</li>
+                            </ul>
+                            <button class="repair-button">from 1800 rub / m2</button>
+                        </div>
+                    </div>
+                    <div class="repair-cards designer">
+                        <div class="card-info">
+                            <h4 class="info-card-header">Designer Repair</h4>
+                            <ul class="repair-navigation">
+                                <li class="repair-navigation__item">Dismantling of old coatings</li>
+                                <li class="repair-navigation__item">Wallpapering</li>
+                                <li class="repair-navigation__item">Painting walls and ceilings</li>
+                                <li class="repair-navigation__item">Laying flooring</li>
+                                <li class="repair-navigation__item">Replacing plumbing</li>
+                                <li class="repair-navigation__item">Replacing sockets and switches</li>
+                                <li class="repair-navigation__item">Replacing doors</li>
+                            </ul>
+                            <button class="repair-button">from 4000 rub / m2</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container request-container">
+                    <div class="specialist">
+                        <div class="variants onenumber">
+                            <!-- <span class="numbers">1</span> -->
+                            <img class="circles-numbers" src="svg/big-circle.svg" alt="c2">
+                            <p class="variants-text">Our specialist will arrive for measurements per day <br>
+                                contact, or appoint a date convenient for you</p>
+                        </div>
+                        <div class="variants twonumber">
+                            <!-- <span class="numbers">2</span> -->
+                            <img class="circles-numbers" src="svg/big-circle.svg" alt="c2">
+                            <p class="variants-text">Free metering</p>
+                        </div>
+                        <div class="variants threenumber">
+                            <!-- <span class="numbers">3</span> -->
+                            <img class="circles-numbers" src="svg/big-circle.svg" alt="c3">
+                            <p class="variants-text">Free consultation</p>
+                        </div>
+                        <div class="variants fournumber">
+                            <!-- <span class="numbers">4</span> -->
+                            <img class="circles-numbers" src="svg/big-circle.svg" alt="c4">
+                            <p class="variants-text">Get a cost estimate and <br>
+                                the timing of your future repairs</p>
+                        </div>
+                    </div>
+
+                    <div class="repair-form">
+                        <p class="repair-form-text">Leave a request for free <br>
+                            departure of the measurer</p>
+                        <form class="upper-form" action="#">
+                            <label class="repair-label" for="fname">Name</label><br />
+                            <input class="repair-input" type="text" id="fname" name="fname"
+                                placeholder="What is your name:" />
+                        </form>
+                        <form class="second-form" action="#">
+                            <label class="repair-label">Phone</label><br />
+                            <input class="repair-input" type="tel" id="phone" name="phone"
+                                placeholder="Your phone number:" />
+                        </form>
+                        <form class="third-form" action="#">
+                            <label class="repair-label">Email</label><br />
+                            <input class="repair-input" type="email" id="email" name="email"
+                                placeholder="Your email:" />
+                        </form>
+                        
+                        <div class="first-checkbox">
+                            <label class="label">
+                              <input type="checkbox" class="checkbox" >
+                              <span class="fake"></span>
+                              <span class="text">I agree to the processing of personal data.</span>
+                            </label>
+                          </div>
+                          <form class="form-button">
+                            <input class="input-online repair-button-form" type="submit" value="Submit" />
+                        </form>
+                    </div>
+                </div>
+                <div class="pig-container">
+                    <img class="pig" src="svg/pig.svg" alt="pig">
+                    <p class="pig-text">Help save 10 - 20% of the <br>
+                        cost of materials</p>
+                </div>
             </div>
         </section>
     </main>
