@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --index: calc(1vw + 1vh)
+}
+
 body {
   margin: 0;
   font-family: "Nunito Sans", sans-serif;
@@ -717,19 +721,99 @@ h3 {
 
 /*====================WILDEST FANTASIES====================*/
 
-.fantasies-header {
-  font-family: 'Yeseva One';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 27px;
-  line-height: 37px;
-  text-transform: uppercase;
-  color: #E3B873;
+.wild-fantasies {
+  display: flex;
+  position: relative;
+  z-index: 1;
 }
 
+.fantasies-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 .fantasies {
   background-image: url(images/fantasies.jpg);
   background-size: cover;
   height: 864px;
   position: relative;
+}
+
+.fantasies-header-list {
+  margin-top: 137px;
+  height: 516px;
+}
+
+.fantasies-header {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.fantasies__item {
+  margin-top: 25px;
+  list-style: none;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.fantasies__item:hover {
+  text-decoration: underline 0.5px;
+  text-underline-offset: 5px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #E3B873;
+}
+
+.fantasies-list {
+  margin-top: 47px;
+}
+
+.left-images {
+  margin-top: -47px;
+  margin-left: 277px;
+  width: 354px;
+}
+
+.first-limage {
+  background-image: url(images/1Limage.jpg);
+  background-size: cover;
+  width: 354px;
+  height: 558px;
+}
+.second-limage {
+  background-image: url(images/2Limage.jpg);
+  width: 354px;
+  height: 350px;
+  margin-top: 40px;
+}
+
+.right-images {
+  margin-top: -107px;
+  margin-left: 43px;
+  width: 354px;
+}
+
+.first-rimage {
+  background-image: url(images/1Rimage.jpg);
+  background-size: cover;
+  width: 354px;
+  height: 275px;
+}
+.second-rimage {
+  background-image: url(images/2Rimage.jpg);
+  background-size: cover;
+  width: 354px;
+  height: 625px;
+  margin-top: 40px;
 }
