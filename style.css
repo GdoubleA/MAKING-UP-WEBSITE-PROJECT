@@ -6,12 +6,12 @@
 html {
   scroll-behavior: smooth;
 }
-:root {
-  --index: calc(1vw + 1vh)
-}
 
 button {
   cursor: pointer;
+  height: 37px;
+  width: 161px;
+  border-radius: 2px;
 }
 
 body {
@@ -30,16 +30,27 @@ body {
   border-radius: 2px;
   outline: 0;
   border: 0;
-  padding: 13px 33px;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans';
   font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 90px;
 }
 
 .logo {
-  color: #e3b873;
+  padding-top: 5px;
+  padding-left: 92px ;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
   text-transform: uppercase;
+  color: #E3B873;
 }
 
 .header, .footer {
@@ -59,11 +70,17 @@ body {
 }
 
 .header-navigation__item, .footer-navigation__item {
-  margin-left: 47px;
+  margin-top: 2px;
+  width: 100px;
+  text-align: center;
+  padding-left: 80px;
 }
 
+
+
 .tel {
-  margin-right: -100px;
+  padding-left: 100px;
+  margin-top: 4px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 11px;
@@ -73,9 +90,17 @@ body {
 
 .header-navigation__item a, .footer-navigation__item a {
   text-decoration: none;
-  color: white;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
   font-size: 11px;
   line-height: 15px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.team {
+  padding-left: 110px;
 }
 
 .header-navigation__item a:hover, .footer-navigation__item a:hover {
@@ -88,7 +113,7 @@ body {
   background-image: url(images/hero.jpg);
   background-size: cover;
   height: 707px;
-  padding-top: 194px;
+  padding-top: 192px;
   position: relative;
 }
 
@@ -115,6 +140,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   width: 550px;
+  margin-left: 134px;
 }
 
 .Rostov {
@@ -122,16 +148,18 @@ body {
 }
 
 .hero-text {
-  margin-top: 19px;
+  margin-top: 18px;
   font-family: "Nunito Sans";
   font-size: 22px;
   line-height: 36px;
   width: 507px;
   color: #ffffff;
+  margin-left: 134px;
+
 }
 
 .hero-button {
-  margin-top: 41px;
+  margin-top: 23px;
   font-family: "Nunito Sans";
   font-style: italic;
   font-size: 11px;
@@ -142,10 +170,15 @@ body {
   padding: 20px 23px;
   background: none;
   color: #ffffff;
+  width: 207px;
+  height: 51px;
+  margin-left: 134px;
+
 }
 
 .right-hero-button {
-  margin-left: 20px;
+  margin-left: 16px;
+  width: 207px;
 }
 
 .hero-button:hover {
@@ -156,7 +189,7 @@ body {
 /*====================COMPLETED PROJECTS====================*/
 
 .projects {
-  padding-top: 107px;
+  padding-top: 94px;
   height: 1074px;
   background-color: #131313;
   position: relative;
@@ -175,7 +208,8 @@ body {
 .admiral-ul {
   list-style: none;
   display: flex;
-  margin-left: 440px;
+  margin-left: 567px;
+  margin-top: 9px;
 }
 
 .admiral-ul__item {
@@ -221,7 +255,7 @@ h3 {
 }
 
 .project-text {
-  margin-top: 34px;
+  margin-top: 22.5px;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -234,24 +268,26 @@ h3 {
   position: relative;
   width: 442px;
   height: 390px;
+  margin-left: 135px;
+  margin-top: -7px;
 }
 
 .admiral-location {
   display: flex;
   width: max-content;
-  margin-top: 42px;
-  gap: 90px;
+  margin-top: 48px;
+  gap: 99px;
 }
 
 .admiral-location2 {
   display: flex;
   width: max-content;
-  margin-top: 42px;
-  gap: 56px;
+  margin-top: 33px;
+  gap: 66px;
 }
 
 .admiral-text {
-  margin-top: 9px;
+  margin-top: 7px;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -263,7 +299,8 @@ h3 {
 .arrow {
   display: flex;
   gap: 17px;
-  margin-top: 81px;
+  margin-top: 85px;
+  margin-left: 13px;
   align-items: center;
 }
 
@@ -291,12 +328,12 @@ h3 {
 }
 
 .online-control {
-  margin-top: -300px;
+  margin-top: -325px;
   text-align: center;
 }
 
 .image-control {
-  margin-top: 20px;
+  margin-top: 11px;
   gap: 10px;
   justify-content: center;
   display: flex;
@@ -315,8 +352,9 @@ h3 {
 }
 
 .online-container {
+  /* display: flex; */
   position: relative;
-  margin-top: 21px;
+  margin-top: 30px;
   width: 817px;
   height: 434px;
   background: rgba(0, 0, 0, 1);
@@ -332,6 +370,7 @@ h3 {
 
 .image-online {
   opacity: 0.2;
+
 }
 
 .stick {
@@ -344,7 +383,7 @@ h3 {
 }
 
 .online-text {
-  margin-top: 34px;
+  margin-top: 21px;
   width: 681px;
   font-family: "Nunito Sans";
   font-style: normal;
@@ -361,7 +400,7 @@ h3 {
   gap: 55px;
   justify-content: center;
   display: flex;
-  margin-top: 91px;
+  margin-top: 77px;
 }
 
 .label-online {
@@ -434,7 +473,7 @@ h3 {
   /* text-align: center; */
   align-items: center;
   justify-content: center;
-  margin-top: -300px;
+  margin-top: -370px;
 }
 
 .repair-header {
@@ -454,7 +493,7 @@ h3 {
 }
 
 .cards {
-  margin-top: 31px;
+  margin-top: 27px;
   justify-content: center;
   display: flex;
   gap: 30px;
@@ -487,10 +526,12 @@ h3 {
   font-size: 18px;
   line-height: 25px;
   color: #363636;
+  margin-top: -5px;
+  padding-left: 3px;
 }
 
 .card-info {
-  margin-top: 450px;
+  margin-top: 446px;
   padding: 30px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
   justify-content: left;
@@ -504,8 +545,10 @@ h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  line-height: 27px;
+  line-height: 28.5px;
   color: #959595;
+  margin-left: 12px;
+ 
 }
 
 .repair-button {
@@ -527,10 +570,15 @@ h3 {
 
 .request-container {
   display: flex;
-  margin-top: 340px;
+  margin-top: 377px;
+}
+
+.specialist {
+  margin-left: 229px;
 }
 
 .circles-numbers {
+  margin-top: 35px;
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
@@ -547,6 +595,7 @@ h3 {
 }
 
 .variants-text {
+  align-items: center;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -598,7 +647,8 @@ h3 {
 
 .repair-form {
   position: relative;
-  margin-left: 330px;
+  
+  margin-left: 200px;
   width: 506px;
   height: 509px;
   background: #131313;
@@ -1092,7 +1142,45 @@ h3 {
 }
 
 
-
-@media (max-width: 1250px;) {
+@media (max-width: 1325px) {
+  .button {
+    display: none;
+  }
+  .tel {
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #e3b873;
+  }
+}
+@media (max-width: 925px) {
+  .repair {
+    background-image: none;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .overhaul, .designer {
+    margin-top: 200px;
+  }
+  .header-navigation, .footer-navigation {
+    display: none;
+  }
+  
+  .hero-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-button, .right-hero-button {
+    width: 338px;
+    margin: 16px 0;
+    
+    
+  }
   
 }
+  
