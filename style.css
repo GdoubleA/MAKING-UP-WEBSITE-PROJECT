@@ -57,11 +57,17 @@ body {
   background-color: #131313;
 }
 
-.header-content, .footer-content {
+.header-content {
   display: flex;
   justify-content: space-between;
   height: 83px;
   align-items: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  height: 83px;
+  align-items: flex-end;
 }
 
 .header-navigation, .footer-navigation {
@@ -231,7 +237,7 @@ body {
   text-decoration: underline;
 }
 
-h3 {
+.h3 {
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
@@ -574,11 +580,14 @@ h3 {
 }
 
 .specialist {
-  margin-left: 229px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 225px;
+  margin-top: 10px;
 }
 
 .circles-numbers {
-  margin-top: 35px;
+  
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
@@ -589,19 +598,21 @@ h3 {
 }
 
 .variants {
+  display: flex;
   position: relative;
   align-items: center;
-  display: flex;
+  margin-top: 40px;
 }
 
 .variants-text {
-  align-items: center;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   color: #363636;
+  padding-bottom: 5px;
+  margin-left: -5px;
 }
 
 .circle-numbers-yellow {
@@ -618,37 +629,43 @@ h3 {
   bottom: 36px;
   left: 33.5px;
   position: absolute;
-  align-items: center;
-  justify-content: center;
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  text-align: center;
   color: #ffffff;
 }
-
+.onenumber {
+  margin-top: 20px;
+  
+}
 .onenumber::after {
   content: "01";
 }
-
+.twonumber {
+  margin-top: 60px;
+}
 .twonumber::after {
   content: "02";
 }
 
+.threenumber {
+  margin-top: 51px;
+}
 .threenumber::after {
   content: "03";
 }
-
+.fournumber {
+  padding-top: 16px;
+}
 .fournumber::after {
   content: "04";
 }
 
 .repair-form {
   position: relative;
-  
-  margin-left: 200px;
+  margin-left: 205.5px;
   width: 506px;
   height: 509px;
   background: #131313;
@@ -656,7 +673,7 @@ h3 {
 }
 
 .repair-form-text {
-  margin-top: 28px;
+  margin-top: 25px;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -671,15 +688,15 @@ h3 {
 }
 
 .upper-form {
-  margin-top: 39px;
+  margin-top: 32px;
 }
 
 .second-form {
-  margin-top: 48px;
+  margin-top: 45.5px;
 }
 
 .third-form {
-  margin-top: 48px;
+  margin-top: 44px;
 }
 
 .repair-label {
@@ -699,7 +716,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 23px;
+  line-height: 28px;
   color: #fff;
   border: none;
   border-bottom: 1px solid #ffffff26;
@@ -749,23 +766,26 @@ h3 {
   font-size: 14px;
   line-height: 23px;
   color: #ffffff;
+  margin-left: 5px;
 }
 
 .repair-button-form {
   position: absolute;
-  margin-top: 39px;
+  margin-top: 35.5px;
   right: 49px;
+  width: 213px;
 }
 
 .pig-container {
-  margin-top: 38px;
-  position: absolute;
+  margin-left: 845px;
+  margin-top: 27px;
   display: flex;
   align-items: center;
-  right: 27%;
 }
 
 .pig-text {
+  margin-left: 5px;
+  margin-bottom: 17px;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -799,7 +819,8 @@ h3 {
 }
 
 .fantasies-header-list {
-  margin-top: 137px;
+  margin-left: 100px;
+  margin-top: 140px;
   height: 516px;
 }
 
@@ -808,12 +829,13 @@ h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 27px;
+  line-height: 32px;
   text-transform: uppercase;
   color: #E3B873;
 }
 
 .fantasies__item {
-  margin-top: 25px;
+  margin-top: 22.5px;
   list-style: none;
   font-family: 'Nunito Sans';
   font-style: normal;
@@ -836,8 +858,8 @@ h3 {
 }
 
 .left-images {
-  margin-top: -47px;
-  margin-left: 277px;
+  margin-top: -42px;
+  margin-left: 210px;
   width: 354px;
 }
 
@@ -855,7 +877,7 @@ h3 {
 }
 
 .right-images {
-  margin-top: -107px;
+  margin-top: -113px;
   margin-left: 43px;
   width: 354px;
 }
@@ -882,6 +904,7 @@ h3 {
   margin-top: 100px;
 }
 .clients-header {
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -904,7 +927,7 @@ h3 {
   line-height: 29px;
   text-align: center;
   color: #363636;
-  margin-top: 24px;
+  margin-top: 17px;
 }
 .clients-container {
   margin-top: 39px;
@@ -929,7 +952,7 @@ h3 {
   border-radius: 50%;
 }
 .clients-name {
-  margin-left: 25px;
+  margin-left: 24px;
   font-family: 'Yeseva One';
   font-style: normal;
   font-weight: 400;
@@ -940,16 +963,16 @@ h3 {
 .clients-card-text {
   margin: 0 auto;
   width: 324px;
-  margin-top: 35px;
+  margin-top: 21px;
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  line-height: 23px;
+  line-height: 24px;
   color: #959595;
 }
 .clients-button {
-  margin-top: 55px;
+  margin-top: 64px;
   height: 54px;
   width: 293.7528076171875px;
   background-color: #E3B873;
@@ -960,7 +983,7 @@ h3 {
   justify-content: center;
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 15px;
 }
 .button-staff-text {
   font-family: 'Yeseva One';
@@ -994,14 +1017,14 @@ h3 {
 }
 .contacts-form {
   position: relative;
-  margin-top: -220px;
+  margin-top: -216px;
   height: 445.3192138671875px;
   width: 883px;
   background-color: #181818;
 }
 
 .contacts-form-text {
-  margin-top: 29px;
+  margin-top: 32px;
   font-family: 'Yeseva One';
   font-style: normal;
   font-weight: 400;
@@ -1014,7 +1037,7 @@ h3 {
 
 .contacts-name-phone {
   display: flex;
-  margin-top: 45px;
+  margin-top: 43px;
   justify-content: center;
   gap: 50px;
 }
@@ -1114,7 +1137,7 @@ h3 {
   text-align: center;
 }
 .contacts-button-form {
-  margin-top: 39px;
+  margin-top: 46px;
 }
 
 
@@ -1132,10 +1155,10 @@ h3 {
 }
 .img-map {
   text-align: center;
-  margin-top: 26px;
+  margin-top: 21px;
 }
 .map-image {
-  margin-top: 43px;
+  margin-top: 37px;
   background-image: url(images/map.jpg);
   width: 925px;
   height: 465px;
